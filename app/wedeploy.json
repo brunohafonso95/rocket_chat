@@ -4,5 +4,5 @@
   "env": {
     "MONGO_URL": "db-tarschat.wedeploy.io"
   },
-  "dependencies": ['db']
+  "dependencies": ["db"]
 }
