@@ -1,5 +1,7 @@
 {
     "id": "db",
     "image": "mongo",
-    "volume": "/data/db"
+    "volumes": {
+        data: "/data/db"
+    }
 }
