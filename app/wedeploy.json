@@ -1,4 +1,8 @@
 {
   "id": "app",
-  "image": "rocket.chat"
+  "image": "rocket.chat",
+  "env": {
+    "MONGO_URL": "db-tarschat.wedeploy.io"
+  },
+  "dependencies": ['db']
 }
